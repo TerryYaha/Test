@@ -1,0 +1,59 @@
+#c-product {
+	width: 100%;
+}
+/*内容部分*/
+.main .container .main1 {
+	padding: 38px 102px 0px;
+}
+/*内容中的标题部分*/
+.main .container .main1 .main1-head{
+	border-bottom:1px solid #d5d5d5 ;
+	color: #333333;
+}
+.main .container .main1 h3 {
+	font-size: 16px;
+	margin-right: 36px;
+	cursor: pointer;
+}
+.main .container .main1 .active{
+	background: #866961;
+}
+.main .container .main1 h3::before{
+	content:"";
+	display: inline-block;
+	width: 2px;
+	height: 9px;
+	margin-right: 7px;	
+	background: #866961;
+}
+.main .container .main1 h3 p {
+	font-size: 10px;
+	color: #999999;
+}
+.main .container .main1 h4{
+	font-size: 14px;
+	margin-top: 13px;
+}
+.main .container .main1 h4 a{
+	color: #999999;;
+}
+.main .container .main1 h4 .em2,
+.main .container .main1 h4 .em3{
+	display: none;
+}
+/*内容的照片与段落*/
+.main .container .main1 img{
+	margin: 25px 0 38px;
+}
+.main .container .main1-content p{
+	width: 525px;
+	margin-top: 39px;
+	font-size: 16px;
+	line-height: 32px;
+	color: #333333;
+	text-indent: 2em;
+	text-align: justify;
+}
+.main .container .sec,.main .container .thr{
+	display: none;
+}

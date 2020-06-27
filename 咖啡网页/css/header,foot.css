@@ -1,0 +1,123 @@
+/*设置主要内容的宽度,并让其居中*/
+.container{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;	
+	position: relative;
+}
+/*设置头部*/
+.header{
+	background: #fff;
+}
+/*设置logo*/
+.header .logo{
+	margin-left: 45px;
+	width: 145px;
+	height: 0px;
+	background: url(../images/logo.gif);
+	padding-top: 80px;
+	overflow: hidden;
+	text-indent: -9999px;
+}
+/*设置导航*/
+.header .nav{
+	margin-right: 45px;
+}
+.color{
+	border-bottom:6px solid #866961;
+}
+.header .nav ul li{
+	float: left;
+	width: 121px;
+	text-align: center;	
+	box-sizing: border-box;
+	height: 80px;
+	line-height: 80px;
+}
+.header .nav ul li a{
+	color: #8e736c;
+	display: inline-block;
+}
+.header .nav ul li:hover{
+	border-bottom:6px solid #866961;
+}
+/*banner*/
+.banner {
+	position: relative;
+	color: #ffffff;
+}
+.banner img{
+	width: 100%;
+}
+/*banner的模态框*/
+.banner .m-border {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: rgba(0, 0, 0, 0.4);
+}
+/*banner的内容*/
+.banner h2 {
+	font-size: 36px;
+	line-height: 36px;
+	position: absolute;
+	top: 39%;
+	left: 44%;
+}
+
+.banner h2 span::after {
+	content: "";
+	display: inline-block;
+	width: 284px;
+	height: 1px;
+	background: #fff;
+	vertical-align: 8px;
+	margin-left: 12px;
+}
+
+.banner h2 span {
+	font-size: 24px;
+}
+
+.banner p {
+	font-size: 26px;
+	line-height: 26px;
+	position: absolute;
+	bottom: 33%;
+	left: 23%;
+}
+
+.banner p::before {
+	content: "";
+	display: inline-block;
+	width: 284px;
+	height: 1px;
+	background: #fff;
+	vertical-align: 8px;
+	margin-right: 16px;
+}
+
+.banner p span {
+	font-size: 20px;
+	margin-left: 15px;
+	vertical-align: -3px;
+	text-transform: capitalize;
+}
+.foot {
+	height: 80px;
+	background: #866961;
+	line-height: 80px;	
+}
+.foot .container .message{
+	padding-left: 68px;
+	font-size: 14px;
+	color: #fefefe;
+}
+.foot .logo{
+	margin-right: 250px;
+	width: 100px;
+	height: 80px;
+	background: url(../images/foot-logo.png);
+}

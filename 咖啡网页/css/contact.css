@@ -1,0 +1,74 @@
+#c-contact{
+	width: 100%;
+}
+/*内容部分*/
+.main .container  {
+	padding: 38px 102px 0px;
+	box-sizing: border-box;
+}
+/*内容中的标题部分*/
+.main .container .main1-head{
+	border-bottom:1px solid #d5d5d5 ;
+	color: #333333;
+}
+.main .container .main1-head h3 {
+	font-size: 16px;
+	margin-right: 80px;
+}
+.main .container .main1-head h3::before{
+	content:"";
+	display: inline-block;
+	width: 2px;
+	height: 9px;
+	margin-right: 7px;	
+	background: #866961;
+}
+.main .container h3 p {
+	font-size: 10px;
+	color: #999999;
+}
+.main .container h4{
+	font-size: 14px;
+	margin-top: 13px;
+}
+.main .container h4 a{
+	color: #999999;;
+}
+.main .container img{
+	margin-top: 22px;
+}
+.main .container ul li{
+	margin-top: 56px;
+	padding-left: 54px;
+	margin-bottom: 60px;
+	float: left;
+}
+.container ul li dt{
+	font-size: 20px;
+	line-height: 20px;
+	color: #333333;
+	margin-bottom: 10px;
+}
+.container ul li p{
+	font-size: 12px;
+	line-height: 12px;
+	color: #adadad;
+}
+.container ul li dd{
+	margin: 10px 0;
+	font-size: 12px;
+	line-height: 12px;
+	color: #333333;
+}
+.container ul .phone{
+	background: url(../images/phone.png) no-repeat top left;
+	margin-left: 32px;
+}
+.container ul .map{
+	background: url(../images/map.png) no-repeat top left;
+	margin-left: 55px;
+}
+.container ul .email{
+	background: url(../images/email.png) no-repeat top left;
+	margin-left: 45px;
+}

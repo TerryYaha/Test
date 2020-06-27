@@ -1,0 +1,170 @@
+
+/*内容标题部分*/
+.main .container .main1 {
+	padding: 38px 102px 0px;
+}
+.main .container .main1 .main1-head{
+	border-bottom:1px solid #d5d5d5 ;
+	color: #333333;
+}
+.main .container .main1 h3 {
+	font-size: 16px;
+	margin-right: 36px;
+	cursor: pointer;
+}
+.main .container .main1 .main1-head .active{
+	background: #866961;
+}
+.main .container .main1 h3::before{
+	content:"";
+	display: inline-block;
+	width: 2px;
+	height: 9px;
+	margin-right: 7px;	
+	background: #866961;
+}
+.main .container .main1 h3 p {
+	font-size: 10px;
+	color: #999999;
+	margin-left: 10px;
+}
+.main .container .main1 h4{
+	font-size: 14px;
+	margin-top: 13px;
+}
+.main .container .main1 h4 a{
+	color: #999999;;
+}
+.main .container .main1 h4 .em2,
+.main .container .main1 h4 .em3{
+	display: none;
+}
+.main .container .main1 .content{
+	padding-top: 22px;
+	padding-bottom: 14px;
+}
+.main .container .main1 .content img{
+	margin-bottom: 22px;
+}
+.main .container .main1 .content p{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+	text-align: justify;
+	text-indent: 2em;
+	margin-bottom: 22px;
+}
+.main .container .main1 .content1{
+	padding-top: 4px;
+	padding-bottom: 40px;
+}
+.main .container .main1 .content1 li{
+	padding: 27px 0;
+	border-bottom: 1px solid #f2f2f2;
+}
+.main .container .main1 .content1 .li5{
+	border-bottom: none;
+}
+.main .container .main1 .content1 .left{
+	width: 71px;
+	text-align: center;
+	font-size: 34px;
+	color: #866961;
+	border-right: 1px solid #f2f2f2;
+}
+.main .container .main1 .content1 .left h5{
+	font-size: 12px;
+	color: #999999;
+}
+.main .container .main1 .content1 .right{
+	width: 888px;
+	margin-right: 17px;
+}
+.main .container .main1 .content1 .right a{
+	font-size: 16px;
+	color: #866961;
+}
+.main .container .main1 .content1 .right p{
+	font-size: 14px;
+	color: #666666;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-top: 22px;
+}
+.main .container .main1 .content2{
+	padding-top: 28px;
+	padding-bottom: 75px;
+}
+.main .container .main1 .content2 li h5{
+	font-size: 20px;
+}
+.main .container .main1 .content2 li div{
+	width: 869px;
+}
+.main .container .main1 .content2 li div span{
+	margin-right: 22px;
+}
+.main .container .main1 .content2 li h5{
+	position: relative;
+	color: #666;
+}
+.main .container .main1 .content2 li:nth-child(1) h5::after{
+	content: "";
+	display: block;
+	height: 58px;
+	width: 1px;
+	background: #d5d5d5;
+	position: absolute;
+	left: 24px;
+	top: 28px;
+}
+.main .container .main1 .content2 li:nth-child(2) h5::after{
+	content: "";
+	display: block;
+	height: 111px;
+	width: 1px;
+	background: #d5d5d5;
+	position: absolute;
+	left: 24px;
+	top: 24px;
+}
+.main .container .main1 .content2 li:nth-child(3) h5::after{
+	content: "";
+	display: block;
+	height: 48px;
+	width: 1px;
+	background: #d5d5d5;
+	position: absolute;
+	left: 24px;
+	top: 28px;
+}
+.main .container .main1 .content2 li:nth-child(4) h5::after{
+	content: "";
+	display: block;
+	height: 125px;
+	width: 1px;
+	background: #d5d5d5;
+	position: absolute;
+	left: 24px;
+	top: 24px;
+}
+.main .container .main1 .content2 li a{
+	color: #666666;
+	font-size: 14px;
+	line-height: 24px;
+	height: 24px;
+	border-bottom: 1px solid #666;
+	display:block;
+	margin-bottom: 20px;
+}
+.main .container .main1 .content2 li:hover h5{
+	color:#866961 ;
+}
+.main .container .main1 .content2 li:hover a{
+	color:#866961 ;
+}
+.main .container .main1 .sec,
+.main .container .main1 .thir{
+	display: none;
+}

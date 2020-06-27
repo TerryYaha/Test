@@ -1,0 +1,120 @@
+#t-product {
+	width: 100%;
+}
+/*内容部分*/
+.main .container .main1 {
+	padding: 38px 102px 0px;
+}
+/*内容中的标题部分*/
+.main .container .main1 .main1-head{
+	border-bottom:1px solid #d5d5d5 ;
+	color: #333333;
+}
+.main .container .main1 .main1-head h3 {
+	font-size: 16px;
+	margin-right: 80px;
+}
+.main .container .main1 .main1-head h3::before{
+	content:"";
+	display: inline-block;
+	width: 2px;
+	height: 9px;
+	margin-right: 7px;	
+	background: #866961;
+}
+.main .container .main1 h3 p {
+	font-size: 10px;
+	color: #999999;
+}
+.main .container .main1 h4{
+	font-size: 14px;
+	margin-top: 13px;
+}
+.main .container .main1 h4 a{
+	color: #999999;;
+}
+/*内容的照片与段落*/
+.main .container .main1 .main1-content{
+	margin: 25px 0 37px;
+}
+.main .container .main1 .main1-content>.fl{
+	width: 375px;
+}
+.main .container .message{
+	width: 599px;
+}
+.main .container .message h2{
+	font-size: 16px;
+	line-height: 22px;
+	height: 22px;
+	color: #333333;
+}
+.main .container .message h2 span{
+	font-size: 12px;
+}
+.main .container .message h3{
+	font-size: 12px;
+	line-height: 22px;
+	height: 22px;
+	color: #999999;
+}
+.main .container .message p{
+	margin-top: 18px;
+	font-size: 14px;
+	line-height: 24px;
+	color: #999999;
+	text-indent: 2em;
+}
+.main .container .main1-content ul{
+	border-top: 1px solid #d5d5d5;
+	margin-top: 275px;
+}
+
+.main .container .main1-content ul li{
+	float: left;
+	width: 145px;
+	height: 55px;
+	text-align: center;
+	cursor: pointer;
+	position: relative;
+	padding-top: 17px;
+	font-size: 16px;
+	line-height: 14px;
+	color: #333333;
+}
+.main .container .main1-content ul li img{
+	position: absolute;
+	left: 0px;
+	top: -221px;
+}
+.main .container .main1-content ul .li1{
+	background: #333333;
+	color: #fff;
+}
+.main .container .main1-content ul li::before{
+	content: "";
+	display: block;
+	width: 23px;
+	height: 1px;
+	background: #666666;
+	position: absolute;
+	top: -1px;
+	left: 40px;
+}
+.main .container .main1-content ul li h4{
+	font-size: 12px;
+	line-height: 12px;
+	color: #999999;
+	margin-top: 18px;
+}
+.main .container .sec,
+.main .container .thir,
+.main .container .for,
+.img2,
+.img3,
+.img4,
+.li2 img,
+.li3 img,
+.li4 img{
+	display: none;
+}
